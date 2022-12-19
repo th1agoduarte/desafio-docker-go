@@ -1,3 +1,3 @@
 # desafio-docker-go
 Link docker 
-th1agoduarte/fullcycle-desafio-go-alpine
+th1agoduarte/desafio-go-hello-word
