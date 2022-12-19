@@ -7,7 +7,7 @@ COPY hello.go ./
 RUN go mod init hello
 RUN go build -o /Desafio
 
-FROM alpine:2.6
+FROM hello-world:latest
 
 WORKDIR /app
 COPY --from=builder /Desafio /Desafio
